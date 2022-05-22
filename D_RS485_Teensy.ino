@@ -129,7 +129,7 @@ void loop()
     unsigned int Crc;
     unsigned char CrcLByte, CrcHByte;
     int i;
-    static unsigned long DelaytimeMillis = 5; // Delaytime in ms between two data packets 5ms (read -> write)
+    static unsigned long DelaytimeMillis = 1; // Delaytime in ms between two data packets (read -> write). 1ms = smallest value
     static unsigned long previousMillis = 0;
     static unsigned long currentMillis = 0;
 
